@@ -29,7 +29,7 @@
 
   if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     if (isset($_POST['SnoEdit'])) {
-      // Uodate the record
+      // Update the record
 
       $Sr = $_POST["SnoEdit"];
       $tittleEdit = $_POST["TittleEdit"];
